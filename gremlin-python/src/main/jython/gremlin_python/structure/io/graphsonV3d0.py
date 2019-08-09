@@ -711,6 +711,7 @@ class TDeserializer(_GraphSONTypeIO):
     def objectify(cls, d, reader):
         return T[d]
 
+
 class TraversalMetricsDeserializer(_GraphSONTypeIO):
     graphson_type = "g:TraversalMetrics"
 
